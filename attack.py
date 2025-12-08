@@ -20,7 +20,7 @@ print("--- ARP Spoofing Started ---")
 
 while True:
     # Send to alice
-    send_packet(alice_mac, "bobtoalice.bin", "Sending to victim 1")
+    send_packet(alice_mac, "bobtoalice.bin", "Sending to Alice")
     # Send to bob
-    send_packet(bob_mac, "alicetobob.bin", "Sending to victim 2")
+    send_packet(bob_mac, "alicetobob.bin", "Sending to Bob")
     time.sleep(wait_time)
